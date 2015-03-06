@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
     $('#search').click(function(){
         $('#images').html('');
         $.getJSON('http://api.flickr.com/services/feeds/photos_public.gne?tags=' +
